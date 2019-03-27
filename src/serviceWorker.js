@@ -8,15 +8,7 @@
 // resources are updated in the background.
 
 // To learn more about the benefits of this model and instructions on how to
-<<<<<<< HEAD
 // opt-in, read https://bit.ly/CRA-PWA
-=======
-<<<<<<< HEAD
-// opt-in, read https://bit.ly/CRA-PWA
-=======
-// opt-in, read http://bit.ly/CRA-PWA
->>>>>>> 61e53b7b85c040d530da9057c5349f539dd4163d
->>>>>>> f2e86fe5cf2b5fba58d480485f924861c543edc5
 
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
@@ -51,15 +43,7 @@ export function register(config) {
         navigator.serviceWorker.ready.then(() => {
           console.log(
             'This web app is being served cache-first by a service ' +
-<<<<<<< HEAD
               'worker. To learn more, visit https://bit.ly/CRA-PWA'
-=======
-<<<<<<< HEAD
-              'worker. To learn more, visit https://bit.ly/CRA-PWA'
-=======
-              'worker. To learn more, visit http://bit.ly/CRA-PWA'
->>>>>>> 61e53b7b85c040d530da9057c5349f539dd4163d
->>>>>>> f2e86fe5cf2b5fba58d480485f924861c543edc5
           );
         });
       } else {
@@ -87,15 +71,7 @@ function registerValidSW(swUrl, config) {
               // content until all client tabs are closed.
               console.log(
                 'New content is available and will be used when all ' +
-<<<<<<< HEAD
                   'tabs for this page are closed. See https://bit.ly/CRA-PWA.'
-=======
-<<<<<<< HEAD
-                  'tabs for this page are closed. See https://bit.ly/CRA-PWA.'
-=======
-                  'tabs for this page are closed. See http://bit.ly/CRA-PWA.'
->>>>>>> 61e53b7b85c040d530da9057c5349f539dd4163d
->>>>>>> f2e86fe5cf2b5fba58d480485f924861c543edc5
               );
 
               // Execute callback
